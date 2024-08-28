@@ -1,0 +1,278 @@
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-family: $fontHobbit;
+            color: $secondary-color;
+            font-size: 60px;
+            font-weight: lighter;
+            text-shadow: rgb(235, 220, 88) 1px 0 10px;
+        }
+
+        .rsvp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: $fontTolkien;
+            color: $secondary-color;
+            font-size: 40px;
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 30px;
+
+                input {
+                    background-color: #5f6948;
+                    border: 1px solid $secondary-color;
+                    border-radius: 35px 35px;
+                    box-shadow: 15px 15px 15px rgba(51, 54, 45, 0.5);
+                    padding: 15px;
+                    width: 500px;
+                    color: $secondary-color;
+                    font-family: $fontTolkien;
+                    font-size: 25px;
+                    margin-top: 20px;
+                }
+            }
+
+            .choice {
+                display: flex;
+                margin-bottom: 30px;
+                border: none;
+
+                .attendance {
+                    margin: 30px;
+                }
+
+                .foodChoice {
+                    margin: 30px;
+
+                    .preciseAllergy {
+                        background-color: $primary-color;
+                        border-bottom: 1px solid $secondary-color;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        margin-left: 10px;
+                        font-family: $fontTolkien;
+                        color: $secondary-color;
+                        font-size: 25px;
+                    }
+                }
+
+                span {
+                    margin-right: 30px;
+                }
+            }
+
+            .btn {
+                margin-top: 30px;
+                margin-bottom: 40px;
+                background-color: #282c1f;
+                color: $secondary-color;
+                font-family: $fontHobbit;
+                font-size: 35px;
+                text-shadow: rgb(235, 220, 88) 1px 0 10px;
+                border: none;
+                border-radius: 35px 35px;
+                filter: drop-shadow(0 0 0.75rem rgba(51, 54, 45, 0.5));
+                width: 250px;
+                height: 65px;
+                cursor: pointer;
+            }
+
+            .btn:hover {
+                filter: drop-shadow(0 0 0.75rem rgba(226, 222, 183, 0.5));
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-family: $fontHobbit;
+            color: $secondary-color;
+            font-size: 32px;
+            font-weight: lighter;
+            text-shadow: rgb(235, 220, 88) 1px 0 10px;
+        }
+
+        .rsvp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: $fontTolkien;
+            color: $secondary-color;
+            font-size: 22px;
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 15px;
+
+                input {
+                    background-color: #5f6948;
+                    border: 1px solid $secondary-color;
+                    border-radius: 35px 35px;
+                    box-shadow: 10px 10px 10px rgba(51, 54, 45, 0.5);
+                    padding: 10px;
+                    width: 250px;
+                    color: $secondary-color;
+                    font-family: $fontTolkien;
+                    font-size: 22px;
+                    margin-top: 15px;
+                }
+            }
+
+            .choice {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                border: none;
+
+                .attendance {
+                    margin: 15px;
+                }
+
+                .foodChoice {
+                    margin: 15px;
+
+                    .preciseAllergy {
+                        background-color: $primary-color;
+                        border-bottom: 1px solid $secondary-color;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        margin-left: 10px;
+                        font-family: $fontTolkien;
+                        color: $secondary-color;
+                        font-size: 22px;
+                    }
+                }
+            }
+
+            .btn {
+                margin-top: 30px;
+                margin-bottom: 40px;
+                background-color: #282c1f;
+                color: $secondary-color;
+                font-family: $fontHobbit;
+                font-size: 35px;
+                text-shadow: rgb(235, 220, 88) 1px 0 10px;
+                border: none;
+                border-radius: 35px 35px;
+                filter: drop-shadow(0 0 0.75rem rgba(51, 54, 45, 0.5));
+                width: 250px;
+                height: 65px;
+                cursor: pointer;
+            }
+
+            .btn:hover {
+                filter: drop-shadow(0 0 0.75rem rgba(226, 222, 183, 0.5));
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-family: $fontHobbit;
+            color: $secondary-color;
+            font-size: 60px;
+            font-weight: lighter;
+            text-shadow: rgb(235, 220, 88) 1px 0 10px;
+        }
+
+        .rsvp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: $fontTolkien;
+            color: $secondary-color;
+            font-size: 35px;
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 30px;
+
+                input {
+                    background-color: #5f6948;
+                    border: 1px solid $secondary-color;
+                    border-radius: 35px 35px;
+                    box-shadow: 15px 15px 15px rgba(51, 54, 45, 0.5);
+                    padding: 15px;
+                    width: 500px;
+                    color: $secondary-color;
+                    font-family: $fontTolkien;
+                    font-size: 25px;
+                    margin-top: 20px;
+                }
+            }
+
+            .choice {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                border: none;
+
+                .attendance {
+                    margin: 20px;
+                }
+
+                .foodChoice {
+                    margin: 20px;
+
+                    .preciseAllergy {
+                        background-color: $primary-color;
+                        border-bottom: 1px solid $secondary-color;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        margin-left: 10px;
+                        font-family: $fontTolkien;
+                        color: $secondary-color;
+                        font-size: 25px;
+                    }
+                }
+            }
+
+            .btn {
+                margin-top: 30px;
+                margin-bottom: 40px;
+                background-color: #282c1f;
+                color: $secondary-color;
+                font-family: $fontHobbit;
+                font-size: 35px;
+                text-shadow: rgb(235, 220, 88) 1px 0 10px;
+                border: none;
+                border-radius: 35px 35px;
+                filter: drop-shadow(0 0 0.75rem rgba(51, 54, 45, 0.5));
+                width: 250px;
+                height: 65px;
+                cursor: pointer;
+            }
+
+            .btn:hover {
+                filter: drop-shadow(0 0 0.75rem rgba(226, 222, 183, 0.5));
+            }
+        }
+    }
+}

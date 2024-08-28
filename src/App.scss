@@ -1,0 +1,79 @@
+@import "./variables/variables.scss";
+@import "./components/styles-components/Navbar.scss";
+@import "./pages/styles-pages/Home.scss";
+@import "./pages/styles-pages/About.scss";
+@import "./pages/styles-pages/Ceremony.scss";
+@import "./pages/styles-pages/Gallery.scss";
+@import "./pages/styles-pages/Contact.scss";
+@import "./pages/styles-pages/ClothingIdeas.scss";
+@import "./components/styles-components/Footer.scss";
+
+body {
+  // max-width: 1280px;
+  // margin: 0 auto;
+  // padding: 2rem;
+  // text-align: center;
+  overflow: auto;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4c5538;
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}
+
+@font-face {
+  font-family: "BilboBold";
+  src: url(./assets/fonts/bilbobold.ttf);
+}
+
+@font-face {
+  font-family: "BilboFine";
+  src: url(./assets/fonts/bilbofine.ttf);
+}
+
+@font-face {
+  font-family: "BilboRegular";
+  src: url(./assets/fonts/bilboregular.ttf);
+}
+
+@font-face {
+  font-family: "HobbitBrush";
+  src: url(./assets/fonts/hobbitonbrushhand.ttf);
+}
+
+@font-face {
+  font-family: "Tolkien";
+  src: url(./assets/fonts/tolkien.ttf);
+}
+
+@media screen and (min-width: 1024px) {
+  .footerNav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footerNav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footerNav {
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,51 @@
+@media screen and (min-width: 1024px) {
+    .nav{
+
+        .navDesktop {
+            position: relative;
+
+            // Utilisation d'une pseudo-élément pour créer l'ombre en fondu sur la bordure du bas
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 15px; // Ajuste la hauteur selon l'effet désiré
+                box-shadow: 0 10px 10px rgba(69, 75, 59, 0.5);
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+                color: $secondary-color;
+                font-size: 35px;
+                font-family: $fontHobbit;
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+                li:hover {
+                    text-shadow: rgb(235, 220, 88) 1px 0 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav{
+
+        .navDesktop {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav{
+
+        .navDesktop {
+            display: none;
+        }
+    }
+}

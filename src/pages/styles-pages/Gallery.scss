@@ -1,0 +1,40 @@
+@media screen and (min-width: 1024px) {
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $fontTolkien;
+        font-size: 40px;
+        color: $secondary-color;
+        text-shadow: rgb(235, 220, 88) 1px 0 10px;
+        padding-top: 220px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gallery {
+        height: 90.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $fontTolkien;
+        font-size: 20px;
+        color: $secondary-color;
+        text-shadow: rgb(235, 220, 88) 1px 0 10px;
+        // padding-top: 220px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .gallery {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $fontTolkien;
+        font-size: 40px;
+        color: $secondary-color;
+        text-shadow: rgb(235, 220, 88) 1px 0 10px;
+        // padding-top: 220px;
+    }
+}

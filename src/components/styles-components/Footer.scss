@@ -1,0 +1,107 @@
+@media screen and (max-width: 767px) {
+    .footer {
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+
+        .buttonMenu {
+            background-color: rgb(49, 54, 43);
+            color: $secondary-color;
+            font-size: 45px;
+            box-shadow: rgb(238, 230, 158) 1px 0 10px;
+            border: none;
+            border-radius: 50%;
+
+            .cross {
+                padding: 3px;
+                align-self: center;
+            }
+
+            .book {
+                padding: 3px;
+                align-self: center;
+            }
+        }
+
+        .menuList {
+            .menuListContent {
+                position: fixed;
+                top: 0;
+                left: 0;
+                backdrop-filter: blur(10px) brightness(60%);
+                padding-left: 0;
+                height: 85vh;
+                margin: 0;
+                width: 100vw;
+                overflow-y: scroll;
+                z-index: 1;
+
+                li {
+                    font-family: $fontHobbit;
+                    font-size: 35px;
+                    color: $secondary-color;
+                    text-shadow: rgb(235, 220, 88) 1px 0 10px;
+                    padding-top: 25px;
+                    padding-left: 30px;
+                    list-style-type: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+
+        .buttonMenu {
+            background-color: rgb(49, 54, 43);
+            color: $secondary-color;
+            font-size: 70px;
+            box-shadow: rgb(238, 230, 158) 1px 0 10px;
+            border: none;
+            border-radius: 130px 130px;
+
+            .cross {
+                padding: 5px;
+                align-self: center;
+            }
+
+            .book {
+                padding: 5px;
+                align-self: center;
+            }
+        }
+
+        .menuList {
+            .menuListContent {
+                position: fixed;
+                top: 0;
+                left: 0;
+                backdrop-filter: blur(10px) brightness(60%);
+                padding-left: 0;
+                height: 87vh;
+                margin: 0;
+                width: 100vw;
+                overflow-y: scroll;
+                z-index: 1;
+
+                li {
+                    font-family: $fontHobbit;
+                    font-size: 50px;
+                    color: $secondary-color;
+                    text-shadow: rgb(235, 220, 88) 1px 0 10px;
+                    padding-top: 35px;
+                    padding-left: 50px;
+                    list-style-type: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

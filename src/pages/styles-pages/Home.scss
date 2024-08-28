@@ -1,0 +1,208 @@
+@media screen and (min-width: 1024px) {
+    .home {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 800px;
+
+        .container {
+            display: flex;
+            align-items: center;
+            color: $secondary-color;
+            font-family: $fontTolkien;
+            text-shadow: rgb(235, 220, 88) 1px 0 10px;
+
+            .counter-container {
+                display: flex;
+                align-items: center;
+
+                .counter-timer-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-left: 5px;
+                    padding-right: 5px;
+
+                    .counter-timer {
+                        font-size: 90px;
+
+                        .hobbitDoor {
+                            width: 350px;
+                            height: 350px;
+                            margin-right: 45px;
+                            border-radius: 50%;
+                            border: 1px solid $secondary-color;
+                            filter: drop-shadow(30px 10px 4px rgba(27, 29, 24, 0.5));
+                        }
+                    }
+
+                    span {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+
+        .imgBlock {
+            margin-left: 45px;
+
+            .upperBouquet {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                top: 164px;
+                right: 75px;
+            }
+
+            .couple {
+                display: flex;
+                align-items: center;
+                height: 600px;
+                width: 280px;
+                padding: 5px;
+                border-radius: 150px 150px;
+                border: 1px solid $secondary-color;
+                box-shadow: 15px 15px 15px rgba(51, 54, 45, 0.5);
+            }
+
+            .lowerBouquet {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                bottom: 180px;
+                left: 180px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 90.5vh;
+
+        .container {
+            display: flex;
+            align-items: center;
+            color: $secondary-color;
+            font-family: $fontTolkien;
+            text-shadow: rgb(235, 220, 88) 1px 0 10px;
+
+            .counter-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .counter-timer-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-left: 5px;
+                    padding-right: 5px;
+
+                    .counter-timer {
+                        font-size: 35px;
+
+                        .hobbitDoor {
+                            width: 100px;
+                            height: 100px;
+                            margin-bottom: 20px;
+                            border-radius: 50%;
+                            border: 1px solid $secondary-color;
+                            filter: drop-shadow(10px 5px 3px rgba(27, 29, 24, 0.5));
+                        }
+                    }
+
+                    span {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+
+        .imgBlock {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 89.7vh;
+
+        .container {
+            display: flex;
+            align-items: center;
+            color: $secondary-color;
+            font-family: $fontTolkien;
+            text-shadow: rgb(235, 220, 88) 1px 0 10px;
+
+            .counter-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .counter-timer-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-right: 50px;
+
+                    .counter-timer {
+                        font-size: 35px;
+
+                        .hobbitDoor {
+                            width: 150px;
+                            height: 150px;
+                            margin-bottom: 20px;
+                            border-radius: 50%;
+                            border: 1px solid $secondary-color;
+                            filter: drop-shadow(14px 6px 4px rgba(27, 29, 24, 0.5));
+                        }
+                    }
+
+                    span {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+
+        .imgBlock {
+            margin-left: 50px;
+
+            .upperBouquet {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                top: 164px;
+                right: 75px;
+            }
+
+            .couple {
+                display: flex;
+                align-items: center;
+                height: 600px;
+                width: 280px;
+                padding: 5px;
+                border-radius: 150px 150px;
+                border: 1px solid $secondary-color;
+                box-shadow: 15px 15px 15px rgba(51, 54, 45, 0.5);
+            }
+
+            .lowerBouquet {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                bottom: 180px;
+                left: 180px;
+            }
+        }
+    }
+}
