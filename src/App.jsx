@@ -5,6 +5,7 @@ import About from './pages/About'
 import Ceremony from './pages/Ceremony'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
+import Confirmation from "./pages/Confirmation"
 import ClothingIdeas from "./pages/ClothingIdeas"
 import Footer from "./components/Footer"
 import './App.scss'
@@ -21,6 +22,7 @@ function App() {
         <Route path="Ceremony" element={<Ceremony />}></Route>
         <Route path="Gallery" element={<Gallery />}></Route>
         <Route path="Contact" element={<Contact />}></Route>
+        <Route path="Confirmation" element={<Confirmation />}></Route>
         <Route path="/clothingIdeas" element={<ClothingIdeas/>}></Route>
       </Routes>
       <div className="footerNav">

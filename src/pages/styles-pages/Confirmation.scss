@@ -1,0 +1,28 @@
+.confirmation {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: $secondary-color;
+    font-family: $fontTolkien;
+    font-size: 40px;
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    img {
+        border-radius: 50%;
+        border: 1px solid $secondary-color;
+        filter: drop-shadow(30px 10px 4px rgba(27, 29, 24, 0.5));
+    }
+
+    .btn {
+        font-size: 60px;
+
+        &:hover {
+            text-shadow: rgb(235, 220, 88) 1px 0 10px;
+        }
+    }
+}

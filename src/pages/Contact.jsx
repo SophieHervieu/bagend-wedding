@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import emailjs from "emailjs-com";
 
 export default function Contact() {
@@ -10,6 +11,8 @@ export default function Contact() {
         diet: [],
         preciseAllergy: '',
     });
+
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
@@ -44,7 +47,7 @@ export default function Contact() {
         emailjs.send('service_pqkn0zf', 'template_3bpr4hr', templateParams, 'cbGUXdGor0bW23viB')
             .then((response) => {
                 console.log('Email sent successfully', response.status, response.text);
-                alert('Confirmation envoyée avec succès');
+                navigate('/Confirmation');
             })
             .catch((error) => {
                 console.error('Error sending email', error);
